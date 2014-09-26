@@ -18,6 +18,7 @@ SnowFlake [] snow, farSnow;
 int siz, fallSpeed;
 public void setup()
 {
+  frameRate(10);
   size(500,500);
   background(100);
   snow = new SnowFlake[500];
