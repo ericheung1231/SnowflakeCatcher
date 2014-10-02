@@ -44,6 +44,17 @@ void draw()
     snow[i].show();
 
   }
+  noStroke();
+  beginShape();
+  curveVertex(0,450);
+  curveVertex(0,450);
+  curveVertex(200,430);
+  curveVertex(350,480);
+  curveVertex(500,470);
+  curveVertex(500,500);
+  curveVertex(0,500);
+  curveVertex(0,450);
+  endShape();
 }
 void mouseDragged()
 {
